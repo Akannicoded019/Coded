@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Sharp Cuts</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-bar">
+      <a href="index.html" class="logo">Sharp Cuts</a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="section">
+      <div class="container contact-box">
+        <div>
+          <h1>Contact Us</h1>
+          <p>Whether you want a fresh fade, a neat beard trim, or a full classic cut, we are ready to welcome you. Send us a booking request and we will confirm your appointment as soon as possible.</p>
+          <form id="booking-form" class="booking-form">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="text" id="service" placeholder="Service wanted" required>
+            <input type="date" id="date" required>
+            <input type="time" name="" id="time" placeholder="Time" required>
+            <textarea id="message" rows="4" placeholder="Any extra details?"></textarea>
+            <button type="submit" class="btn" data-mailto="mailto:akannicoded019@gmail.com">Send Request</button>
+            <p id="form-message" class="form-message"></p>
+          </form>
+        </div>
+        <div class="contact-card">
+          <h3>Visit us</h3>
+          <p>Call: (123) 456-7890</p>
+          <p>Email: hello@sharpcuts.com</p>
+          <p>123 Aptech, Shitta</p>
+          <p>Open Monday to Sunday from 9:00 AM to 7:00 PM</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Sharp Cuts. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
